@@ -1,0 +1,13 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    background-color: #242424;
+}
+
+li {
+    cursor: pointer;
+}
+
+nav h1 {
+    cursor: pointer;
+}
