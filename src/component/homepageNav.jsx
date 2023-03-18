@@ -10,7 +10,7 @@ export function Nav() {
                 <ul className='flex gap-[50%]'>
                     <li className="hover:border-b-[1px] border-white "> <Link to="profile" smooth={true} duration={800}>Profile</Link></li>
                     <li className="hover:border-b-[1px] border-white "> <Link to="history" smooth={true} duration={800}>History</Link></li>
-                    <li className="hover:border-b-[1px] border-white ">Acheivement</li>
+                    <li className="hover:border-b-[1px] border-white "> <Link to="project" smooth={true} duration={800}>Project</Link></li>
                 </ul>
             </div >
             <div className='pl-[16%] '>
