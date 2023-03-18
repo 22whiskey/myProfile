@@ -5,7 +5,7 @@ export function History() {
     return (
 
         <section className="pt-[10%] px-[4%]">
-            <div className="pt-[5%]" name="history">
+            <div className="pt-[8%]" name="history">
                 <div className="flex justify-center items-center text-center text-[150%] leading-[200%] text-white  gap-[10%]" >
                     {history.map((item, index) => (
                         <div key={index} className="flex flex-col items-center">

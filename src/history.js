@@ -1,4 +1,4 @@
-export let history = [{
+export const history = [{
     education: "High school",
     attended: "Sarasas witaed bangbuathong",
     image: "/photo/swbt-1.png",
