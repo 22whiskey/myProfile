@@ -1,5 +1,7 @@
 export const project = [{
-    image: "/photo/coding.jpg"
+
+    project: "My Todolist",
+    image: "/photo/todolist.png"
 },
 {
     image: "/photo/coding.jpg"

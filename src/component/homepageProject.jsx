@@ -9,8 +9,9 @@ export function Project() {
                     <h1 className="text-[white] text-[200%] border-b-[1px] border-white pb-[0.5%]">Project</h1>
                     <div className="grid grid-cols-3 gap-4">
                         {project.map((item, index) => (
-                            <div key={index} id="project-picture">
-                                <img className="w-[100%] h-[80%] object-contain" src={item.image}></img>
+                            <div key={index} className="pl-[7%] flex flex-col items-center ">
+                                <img className="w-[90%] h-[80%] mb-[6%] rounded-[15px]" src={item.image}></img>
+                                <h3 className="text-[white] hover:border-b-[1px] hover:border-white"><a href="https://github.com/22whiskey/myTodolist">{item.project}</a></h3>
                             </div>
                         )
                         )}
